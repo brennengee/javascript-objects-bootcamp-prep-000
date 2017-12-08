@@ -8,5 +8,5 @@ function updatePlaylist(playlist, nacho, ramses) {
 }
 
 function removeFromPlaylist(playlist, puth) {
-  return delete
+  delete playlist.puth
 }
